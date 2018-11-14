@@ -1,5 +1,5 @@
 {
-  "name": "webdriverio-test",
+  "name": "webdriverio-sample",
   "version": "1.0.0",
   "description": "Sample WebDriverIO Tests",
   "main": "index.js",
@@ -13,6 +13,6 @@
     "wdio-dot-reporter": "0.0.10",
     "wdio-mocha-framework": "^0.6.3",
     "webdriverio": "^4.13.2",
-    "wdio-browserstack-reporter": "~1.0.0"
+    "wdio-browserstack-reporter": "~0.1.0"
   }
 }
