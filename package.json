@@ -4,7 +4,7 @@
   "description": "Sample WebDriverIO Tests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio wdio.conf.js"
   },
   "author": "Ashwin G",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "wdio-browserstack-service": "^0.1.16",
     "wdio-dot-reporter": "0.0.10",
     "wdio-mocha-framework": "^0.6.3",
-    "webdriverio": "^4.13.2"
+    "webdriverio": "^4.13.2",
+    "wdio-browserstack-reporter": "~1.0.0"
   }
 }
