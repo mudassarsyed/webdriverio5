@@ -12,7 +12,7 @@
     "wdio-browserstack-service": "^0.1.16",
     "wdio-dot-reporter": "0.0.10",
     "wdio-mocha-framework": "^0.6.3",
-    "webdriverio": "^4.13.2",
+    "webdriverio": "5.8.3",
     "wdio-browserstack-reporter": "~0.1.0"
   }
 }
