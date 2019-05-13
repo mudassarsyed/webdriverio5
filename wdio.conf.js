@@ -61,8 +61,6 @@ exports.config = {
         'browserName': 'Chrome',
         'browser_version': '62.0',
         'resolution': '1024x768',
-        'browserstack.local': true,
-        // "browserstack.geoLocation": 'US',
         'project': 'Sample WDIO test',
         'build': 'Sample WDIO test v1',
     }],
@@ -132,7 +130,6 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['browserstack'],
-    browserstackLocal: true,
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
