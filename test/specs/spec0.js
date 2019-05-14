@@ -1,9 +1,9 @@
-var assert = require('assert');
+const assert = require('assert');
 
-describe('webdriver.io page', function() {
-    it('should have the right title - the fancy generator way', function () {
-        browser.url('http://webdriver.io');
-        var title = browser.getTitle();
+describe('webdriver.io page', () => {
+    it('should have the right title', () => {
+        browser.url('https://webdriver.io');
+        const title = browser.getTitle();
         assert.equal(title, 'WebdriverIO · Next-gen WebDriver test framework for Node.js');
     });
 });
