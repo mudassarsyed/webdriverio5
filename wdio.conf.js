@@ -150,14 +150,14 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['dot'],
+//     reporters: ['dot'],
 
-    // reporters: ['browserstack'],
-    // reporterOptions: {
-    //     browserstack: {
-    //         outputDir: './'
-    //     }
-    // },
+    reporters: ['browserstack'],
+    reporterOptions: {
+        browserstack: {
+            outputDir: './'
+        }
+    },
     
     //
     // Options to be passed to Mocha.
